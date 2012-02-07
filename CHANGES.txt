@@ -1,8 +1,8 @@
 CHANGES
 *******
 
-4.3.2 (unreleased)
-==================
+4.3.1_1 (2012-02-07)
+====================
 
 - Brown Bag release. setuptools-git was missing [do3cc]
 
