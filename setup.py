@@ -1,5 +1,6 @@
-from setuptools import setup, find_packages
 import os
+
+from setuptools import setup, find_packages
 
 # The version of the wrapped library is the starting point for the
 # version number of the python package.
@@ -8,7 +9,7 @@ import os
 # For example, a packaging bugfix release version 1.4.4 of the
 # js.jquery package would be version 1.4.4-1 .
 
-version = '4.1.0-1dev'
+version = '4.3.1'
 
 def read(*rnames):
     return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
@@ -29,13 +30,13 @@ setup(
     author_email='fanstatic@googlegroups.com',
     url='https://github.com/do3cc/js.jqgrid',
     license='',
-    packages=find_packages(),namespace_packages=['js'],
+    packages=find_packages(),
+    namespace_packages=['js'],
     include_package_data=True,
     zip_safe=False,
     setup_requires=[],
     install_requires=[
         'fanstatic',
-        'setuptools',
         'js.jquery',
         'js.jqueryui',
         ],
