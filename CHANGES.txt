@@ -2,12 +2,12 @@ CHANGES
 *******
 
 4.3.1 (2012-02-07)
-====================
+==================
 
-- Updated jqGrid to version 4.3.1.
+- Updated jqGrid to version 4.3.1. [agronholm]
 
 
 4.1.0 (2011-06-19)
 ==================
 
-- Initial release.
+- Initial release. [do3cc]
