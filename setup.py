@@ -34,7 +34,7 @@ setup(
     namespace_packages=['js'],
     include_package_data=True,
     zip_safe=False,
-    setup_requires=[],
+    setup_requires=['setuptools-git'],
     install_requires=[
         'fanstatic',
         'js.jquery',
