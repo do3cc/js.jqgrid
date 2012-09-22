@@ -1,6 +1,12 @@
 CHANGES
 *******
 
+4.4.1-1 (2012-09-22)
+==================
+
+- Added missing locales to js/jqgrid/__init__.py [agronholm]
+
+
 4.4.1 (2012-09-22)
 ==================
 
