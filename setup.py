@@ -9,7 +9,7 @@ from setuptools import setup, find_packages
 # For example, a packaging bugfix release version 1.4.4 of the
 # js.jquery package would be version 1.4.4-1 .
 
-version = '4.4.1-1'
+version = '4.4.4'
 
 def read(*rnames):
     return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
